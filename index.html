@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ひらく 業務基盤 DoXモック</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="demo-banner">
+  <b>デモ環境</b>｜物件・人物・取引・金額はすべて<b>架空データ</b>です。外部サービス連携は<b>擬似表示（デモ連携／仕様要確認）</b>で、実システムとは接続していません。
+</div>
+<div class="app">
+  <aside id="sidebar" class="sidebar"></aside>
+  <div class="main-col">
+    <header id="header" class="header"></header>
+    <main id="main" class="main"></main>
+  </div>
+</div>
+<div id="drawer-root"></div>
+<div id="modal-root"></div>
+<div id="toast-root" class="toast-root"></div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
